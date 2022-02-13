@@ -57,6 +57,12 @@ body {
     
 }
 
+.links:hover {
+    text-decoration: underline;
+    font-size: 25px;
+    font-weight: bold;
+}
+
 ul li {
     display: flex;
     justify-content: space-around; 
