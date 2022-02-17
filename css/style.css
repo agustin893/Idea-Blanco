@@ -173,10 +173,60 @@ td ol li {
 
 /* ¿QUE OFRECEMOS? */
 
-.description {
-    margin-top: 50px;
+
+
+.servicios {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
 }
 
-.description p {
-    margin-top: 5px;
+.img-servicio {
+    border: 2px;
+    border-color: black;
+    border-style: solid;
+    width: 500px;
+    height: 335px;
+    display: block;
 }
+
+
+.description {
+    margin-top: 50px;
+    position: relative;
+}
+
+.description:hover {
+   cursor: pointer;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: rgb(248, 201, 107);
+  }
+
+  .description:hover .overlay {
+    opacity: 1;
+  }
+
+  .texto-servicio {
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+  }
+
+  /* FIN ¿QUE OFRECEMOS? */
