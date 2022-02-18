@@ -121,7 +121,7 @@ footer {
     width: 100%;
     bottom: 0;
     background-color: rgb(248, 201, 107);
-    margin-top: 100px;
+    margin-top: 150px;
 }
 
 footer p {
@@ -140,33 +140,37 @@ footer p {
 
 /* Tarifas */
 
-table {
+.tabla {
     width: 85%;
     font-size: 30px;
     font-weight: bold;
     text-align: center;
     margin: 0 auto;
+    height: 10%;
 }
 
 .servicio {
     width: 10%;
+    border-style: solid;
 }
 
 
 .cotizacion {
     width: 45%;
+    border-style: solid;
 }
-
     
  td ul li { 
     margin: 10px;
     padding: 10px;
     display: inline-block;
+    border-style: solid;
 }
 
 td ol li { 
     display: inline-block;
     width: 30%;
+    border-style: solid;
 } 
 
 /* Fin tarifas */ 
