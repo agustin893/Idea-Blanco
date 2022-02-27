@@ -1,0 +1,35 @@
+@import "../base/variables";
+
+/* Estilos para el header */
+
+.menu {
+    background-color: $color-general;
+}
+
+.derecha {
+    margin-right: 3%;
+}
+
+.nav-item{
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+.nav-link {
+    color:black !important;
+    &:hover {
+        font-size: 25px;
+        font-weight: bold;
+        color: black;
+    }
+}
+
+
+
+.logoImagen {
+    height: 3em;
+    margin-left: 10px;
+    margin-top: 5px;
+}
+
+/* Fin estilos para el header */

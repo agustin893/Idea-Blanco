@@ -1,0 +1,36 @@
+/* Tarifas */
+
+.tabla {
+    width: 85%;
+    font-size: 100%;
+    font-weight: bold;
+    text-align: center;
+    margin: 0 auto;
+    height: 10%;
+}
+
+.servicio {
+    width: 10%;
+    border-style: solid;
+}
+
+
+.cotizacion {
+    width: 45%;
+    border-style: solid;
+}
+    
+ td ul li { 
+    margin: 10px;
+    padding: 10px;
+    display: inline-block;
+    border-style: solid;
+}
+
+td ol li { 
+    display: inline-block;
+    width: 30%;
+    border-style: solid;
+} 
+
+/* Fin tarifas */ 
