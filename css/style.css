@@ -221,3 +221,14 @@ td ol li {
   }
 
   /* FIN ¿QUE OFRECEMOS? */
+
+  /* CONTACTO */
+
+  .largo {
+      border: 1px solid black !important;
+      width: 15em;
+  }
+
+  .enviar {
+      margin-top: 20px;
+  }

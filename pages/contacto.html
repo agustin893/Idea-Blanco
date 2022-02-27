@@ -50,34 +50,48 @@
     </div>
 
     <section>
-        <form action="envio.php" method="post">
-            <fieldset>
-                <legend>Información de contacto</legend>
-                <label for="nombre">Nombre</label>
-                <input type="text" name="nombre" placeholder="Agustin Blanco">
-                <br><br>
-                <label for="telefono">Telefono</label>
-                <input type="tel" name="telefono" placeholder="1143456476">
-                <br><br>
-                <label for="email">Email</label>
-                <input type="email" name="email" placeholder="mail@hotmail.com" <br><br>
-                <br>
+        <form>
+            <div class="row mb-4 ">
+                <div class="col">
+                    <div class="form-outline">
+                        <label class="form-label">Nombre</label>
+                        <input type="text" class="form-control largo" placeholder="Agustin Blanco" />
+
+                    </div>
+                </div>
+            </div>
+
+            <div class="form-outline mb-4  ">
+                <label class="form-label">Telefono</label>
+                <input type="tel" class="form-control largo" placeholder="1143456476" />
+            </div>
+
+            <div class="form-outline mb-4 ">
+                <label class="form-label">Email</label>
+                <input type="email" class="form-control largo" placeholder="mail@hotmail.com" />
+            </div>
+
+            <div>
                 <p>¿Donde preferis que te contactemos?</p>
+            </div>
+
+            <div class="form-check mb-4">
+                <input class="form-check-input me-2" type="checkbox" name="WA" value="WA" />
+                <label class="form-check-label" for=""> WhatsApp </label>
                 <br>
-                <label for="">WhatsApp</label>
-                <input type="checkbox" name="WA" value="WA">
-                <label for="">Email</label>
-                <input type="checkbox" name="Em" value="Em">
-                <br><br>
-                <label for="">¿De donde sos?</label>
-                <select name="ubicacion" id="">
-                    <option value="Capital">Capital Federal</option>
-                    <option value="Buenos Aires">Gran Buenos Aires</option>
+                <input class="form-check-input me-2" type="checkbox" name="Em" value="Em" />
+                <label class="form-check-label" for=""> Email </label>
+            </div>
+
+            <div>
+                <p>¿De donde sos?</p>
+                <select class="form-select largo" aria-label="Default select example">
+                    <option value="1">Capital Federal</option>
+                    <option value="2">Gran Buenos Aires</option>
                 </select>
-            </fieldset>
-            <br>
-            <input type="reset" value="Reiniciar">
-            <input type="submit" value="Enviar">
+            </div>
+
+            <button type="submit" class="btn btn-primary btn-block mb-4 enviar">Enviar</button>
         </form>
     </section>
 
