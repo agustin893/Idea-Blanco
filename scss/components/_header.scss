@@ -1,4 +1,7 @@
 @import "../base/variables";
+@import "../base/extends";
+@import "../base/mixins";
+@import "../base/maps";
 
 /* Estilos para el header */
 
@@ -11,8 +14,7 @@
 }
 
 .nav-item{
-    margin-right: 10px;
-    margin-left: 10px;
+    @extend %margenes
 }
 
 .nav-link {
@@ -27,9 +29,9 @@
 
 
 .logoImagen {
-    height: 3em;
-    margin-left: 10px;
-    margin-top: 5px;
+    height: map-get($logo, altura );
+    margin-left: map-get($logo, margenIzq );
+    margin-top: map-get($logo, margenTop );
 }
 
 /* Fin estilos para el header */

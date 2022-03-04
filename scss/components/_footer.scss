@@ -1,3 +1,5 @@
+@import "../base/mixins";
+
 /* Footer */
 
 footer {
@@ -6,7 +8,7 @@ footer {
     bottom: 0px;
     width: 100%;
     bottom: 0;
-    background-color: rgb(248, 201, 107);
+    @include colores(#f8c96b);
     margin-top: 350px;
     p {
         display: flex;

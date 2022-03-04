@@ -1,17 +1,17 @@
 @charset "UTF-8";
-/* Estilos para el header */
 @import url("https://fonts.googleapis.com/css2?family=Hind+Siliguri&display=swap");
+.nav-item {
+  margin-right: 10px;
+  margin-left: 10px;
+}
+
+/* Estilos para el header */
 .menu {
   background-color: #f8c96b;
 }
 
 .derecha {
   margin-right: 3%;
-}
-
-.nav-item {
-  margin-right: 10px;
-  margin-left: 10px;
 }
 
 .nav-link {
