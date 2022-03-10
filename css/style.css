@@ -60,9 +60,16 @@ h1 {
 
 .texto {
   font-weight: 500;
-  font-size: 15px;
+  font-size: 20px;
   line-height: 20px;
+  text-align: center;
+  margin-top: 25px;
   font-family: "Hind Siliguri", sans-serif;
+}
+
+.intro {
+  text-align: center;
+  font-size: 50px;
 }
 
 h2, h3 {
@@ -85,6 +92,18 @@ h2, h3 {
 }
 
 /* Fin del cuerpo */
+.zonas {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 50px;
+}
+
+.map {
+  border: 2px solid black;
+  margin-top: 25px;
+}
+
 /* ¿QUE OFRECEMOS? */
 .servicios {
   display: flex;
