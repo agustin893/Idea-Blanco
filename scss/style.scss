@@ -34,7 +34,7 @@ body {
     margin-top: 20px;
 }
 
-@media (min-width: 320px) and (max-width: 580px) {
+@media (min-width: 320px) and (max-width: 700px) {
   
     .logoImagen {
         width: 100%;
@@ -47,6 +47,11 @@ body {
     #caja1 {
         height: 300px;
         border: solid 3px black;
+    }
+
+    .intro {
+        font-size: 25px;
+        text-decoration: underline;
     }
 
     .tabla {
