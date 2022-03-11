@@ -267,14 +267,14 @@ body {
     font-size: 90%;
   }
 
+  .intro {
+    font-size: 25px !important;
+    text-decoration: underline !important;
+  }
+
   #caja1 {
     height: 300px;
     border: solid 3px black;
-  }
-
-  .intro {
-    font-size: 25px;
-    text-decoration: underline;
   }
 
   .tabla {
